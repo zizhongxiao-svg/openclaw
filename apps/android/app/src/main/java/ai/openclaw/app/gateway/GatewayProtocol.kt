@@ -1052,6 +1052,8 @@ enum class GatewayMethod(
   BackupStatus("backup.status"),
   StorageLocationsList("storage.locations.list"),
   StorageLocationsProbe("storage.locations.probe"),
+  MemoryGet("memory.get"),
+  MemoryStatus("memory.status"),
 }
 
 enum class GatewayEvent(
